@@ -1,0 +1,2 @@
+rootProject.name = "Demo SeekBar RGB"
+include ':app'
