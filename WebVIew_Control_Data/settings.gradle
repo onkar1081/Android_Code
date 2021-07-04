@@ -1,0 +1,2 @@
+rootProject.name = "WebVIew_Control_Data"
+include ':app'
