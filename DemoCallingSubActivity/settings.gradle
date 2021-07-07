@@ -1,0 +1,2 @@
+rootProject.name = "Demo Calling SubActivity"
+include ':app'
