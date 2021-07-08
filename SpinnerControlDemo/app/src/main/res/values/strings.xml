@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpinnerControl Demo</string>
+
+    <string-array name="branches">
+    <item>C</item>
+    <item>CPP</item>
+    <item>JAVA</item>
+    <item>PYTHON</item>
+    </string-array>
+</resources>
