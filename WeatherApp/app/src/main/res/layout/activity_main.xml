@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="location"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:text="Send"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/e2" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Weather Condition"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/e3" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Temperature "
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/e"
+        app:layout_constraintTop_toBottomOf="@+id/e" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="215dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="48dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
